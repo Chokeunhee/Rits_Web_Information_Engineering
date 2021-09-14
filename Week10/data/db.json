@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Ashley Smith",
+      "body": "Life is full of beauty. Notice it. Notice the bumble bee, the small child, and the smiling faces. Smell the rain, and feel the wind. Live your life to the fullest potential, and fight for your dreams."
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "C.S.Lewis",
+      "body": "You are never too old to set another goal or to dream a new dream."
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Mark Twain",
+      "body": "Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great."
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Martin Luther King Jr.",
+      "body": "You don’t have to see the whole staircase, just take the first step."
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "F. Scott Fitzgerald",
+      "body": "I fell in love with her courage, her sincerity, and her flaming self respect. And it’s these things I’d believe in, even if the whole world indulged in wild suspicions that she wasn’t all she should be. I love her and it is the beginning of everything"
+    }
+  ]
+}

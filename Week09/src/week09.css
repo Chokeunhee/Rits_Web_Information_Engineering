@@ -1,0 +1,36 @@
+body{
+  background-color: #333;
+}
+
+.page1 {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.navbar {
+  color: white;
+  text-align: center;
+}
+
+.studentinfo {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.link{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.credit{
+  font-size: 30px;
+}
+
+.Name{
+  font-style: italic;
+}
