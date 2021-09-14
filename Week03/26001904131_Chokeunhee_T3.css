@@ -1,0 +1,56 @@
+body{
+	margin-top: 60px;
+	background:#333;
+	color:white;
+	padding: 50px 0;
+	font-family: Arial;
+	line-height: 24px;
+}
+
+h2{
+	color: blue;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+p{
+	font-size: 1vw;
+}
+
+.title{
+	background-color: grey;
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	height: 50px;
+	padding: 10px 0px;
+}
+
+.container{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.colums{
+	margin: 0 15px 25px;
+	background: grey;
+	border-radius: 10px;
+	color: white;
+	flex-basis: 33%;
+	text-align: center;
+}
+
+.card{
+	padding: 15px 25px;
+}
+
+.text{
+	margin-top: 5px;
+	text-align: center;
+	width: 100%;
+}

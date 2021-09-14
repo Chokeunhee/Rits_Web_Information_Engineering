@@ -1,0 +1,76 @@
+body{
+	background-color: grey;
+	font-family: Arial;
+	text-align: center;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+#Text{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+
+}
+
+#Myname{
+	background-color: black;
+	padding: 5pt;
+	font-size: 30px;
+	color: yellow;
+}
+
+#title{
+	margin-top: 50px;
+}
+
+#Pros{
+	background: #3399ff;
+	padding: 20px;
+}
+
+#pro{
+	background: #cce5ff;
+	margin: 5px;
+	color: black;
+	font-size: 15px;
+	padding: 5px;
+}
+
+#Cons{
+	background: #ff9999;
+	padding: 20px;
+}
+
+#con{
+	background: #ffe5e5;
+	margin: 5px;
+	color: black;
+	font-size: 15px;
+	padding: 5px;
+}
+
+#example{
+	background: #b0ff33;
+	color: black;
+	font-size: 15px;
+	padding: 10px;
+
+}
+
+#Name{
+	font-size: 20px;
+	color: red;
+}
+
+#a{
+	color: red;
+}
+
+.studentinfo{
+	margin-top: 100px;
+	background-color: #333;
+	padding: 5px 0px;
+	bottom: 0;
+	color: white;
+}

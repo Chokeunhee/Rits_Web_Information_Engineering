@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="26001904131_Chokeunhee_T5.css">
+	<meta charset="UTF-8"/>
+	<script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+	<title>26001904131_TeamPop</title>
+</head>
+<body>
+	<div id="X"></div>
+	<script type="text/babel">
+
+		function ShowText(){
+
+		return(
+		<div id="Text">
+			<h1 id="title">1. TeamPop Member</h1>
+			<span id="Myname">Cho Keunhee</span>
+			<p>Itsuki</p>
+			<p>Nicholas</p>
+
+			<h1 id="title">2. How is react different from the other technologies?</h1>
+			<h3>Pros</h3>
+				<ul id="Pros">
+					<li id="pro">
+						Easy to creat dynamic web application.
+						Builted components are easily reusable.
+					</li>
+					<li id="pro">
+						Since React uses virtual DOM, it can reduce webpage load time
+					</li>
+					<li id="pro">
+						React can easely intergrate both html and javascript in the same file. things can be broken up and orginazed into components for a cleaner coding experience.
+					</li>
+				</ul>
+			
+			<h3>Cons</h3>
+				<ul id="Cons">
+					<li id="con">
+						It holds a poor documentation due to fast pace of updates.
+						Holds a barrier due to usage of JSX.
+					</li>
+					<li id="con">
+						To use React, user need to download some tools such as Node.js
+					</li>
+					<li id="con">
+						Sometimes in order to get a certain look the developer is looking for they would need to use a different library like bootstrap, the amount of component extesions is endless and not all native.
+					</li>
+				</ul>
+
+			<h1 id="title">3. React component examples</h1>
+			<p id="example">
+				<span id="Name"><a href="https://www.paypal.com/jp/home">Paypal</a></span> is one of the example site uses React web development. Since 2015, developers at Paypal started to implement React in their ecosystem. The main components that uses React is their online payment.
+			</p>
+
+			<p id="example">
+				<span id="Name"><a href="https://www.netflix.com/jp-en/">Netflix</a></span> also works with React. Their platform Gibbon, which is used for low-cost TV decives instead of the DOM used in web browsers. There is even a <a href="https://netflixtechblog.com/netflix-likes-react-509675426db">official document</a> posted.
+			</p>
+
+			<p id="example">
+				Educational website such as <span id="Name">Khan Academy</span> and <span id="Name">Codecademy</span> are also examples which uses React as their web development.
+			</p>
+
+		</div>
+		);
+	}
+	ReactDOM.render(<ShowText/>,document.getElementById('X'))
+	</script>
+
+	<div class="studentinfo">
+		<p>&copy; CKH. All rights reserved. | Design by Chokeunhee</p>
+	</div>
+
+</body>
+</html>
